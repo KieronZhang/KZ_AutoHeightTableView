@@ -1,0 +1,11 @@
+platform :ios, ‘8.0’
+
+use_frameworks!
+
+target 'KZ_AutoHeightTableView’ do
+    
+    pod 'KZ_Categories'
+    pod 'KZ_MacroDefinition'
+    pod 'KZ_FPSLabel'
+
+end
