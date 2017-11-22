@@ -18,7 +18,7 @@
 		AE3E858A1F94AFDD00553536 /* SectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3E85891F94AFDD00553536 /* SectionViewController.m */; };
 		AE3E858D1F94B59F00553536 /* RowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3E858C1F94B59F00553536 /* RowViewController.m */; };
 		AE3E85C41F984B9400553536 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3E85C31F984B9400553536 /* Utils.m */; };
-		AEA5EBDF1FC2A782003D7BD1 /* KZ_AutoHeightTableViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBDE1FC2A782003D7BD1 /* KZ_AutoHeightTableViewFramework.framework */; };
+		AE9A25F01FC5E83B00668BA7 /* KZ_AutoHeightTableViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25EF1FC5E83B00668BA7 /* KZ_AutoHeightTableViewFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,7 +58,7 @@
 		AE3E858C1F94B59F00553536 /* RowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowViewController.m; sourceTree = "<group>"; };
 		AE3E85C21F984B9400553536 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		AE3E85C31F984B9400553536 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		AEA5EBDE1FC2A782003D7BD1 /* KZ_AutoHeightTableViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AutoHeightTableViewFramework.framework; sourceTree = "<group>"; };
+		AE9A25EF1FC5E83B00668BA7 /* KZ_AutoHeightTableViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AutoHeightTableViewFramework.framework; sourceTree = "<group>"; };
 		F79D0BA12F4241D1DB9CB302 /* Pods-KZ_AutoHeightTableViewFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_AutoHeightTableViewFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_AutoHeightTableViewFramework/Pods-KZ_AutoHeightTableViewFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA5EBDF1FC2A782003D7BD1 /* KZ_AutoHeightTableViewFramework.framework in Frameworks */,
+				AE9A25F01FC5E83B00668BA7 /* KZ_AutoHeightTableViewFramework.framework in Frameworks */,
 				1AA98C8C522BE86238B1AF74 /* Pods_KZ_AutoHeightTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +138,7 @@
 		AEA5EBDD1FC2A782003D7BD1 /* AutoHeightTableView */ = {
 			isa = PBXGroup;
 			children = (
-				AEA5EBDE1FC2A782003D7BD1 /* KZ_AutoHeightTableViewFramework.framework */,
+				AE9A25EF1FC5E83B00668BA7 /* KZ_AutoHeightTableViewFramework.framework */,
 			);
 			path = AutoHeightTableView;
 			sourceTree = "<group>";
