@@ -1,0 +1,6 @@
+framework module Pods_KZ_AutoHeightTableView_iOS {
+  umbrella header "Pods-KZ_AutoHeightTableView_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
