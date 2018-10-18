@@ -21,7 +21,7 @@
         imageView.image = [UIImage imageNamed:@"Logo"];
         [self.contentView addSubview:imageView];
         
-        titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(imageView.maxX + 10, 10, KZ_SCREEN_WIDTH - imageView.maxX - 20, 20)];
+        titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(imageView.maxX + 10, 10, KZ_Screen_Width - imageView.maxX - 20, 20)];
         titleLabel.numberOfLines = 0;
         titleLabel.font = [UIFont systemFontOfSize:16.0f];
         [self.contentView addSubview:titleLabel];
@@ -40,7 +40,7 @@
 }
 
 + (CGFloat)heightForText:(NSString *)text {
-    CGSize titleSize = [text kz_sizeWithFont:[UIFont systemFontOfSize:16.0f] constrainedToWidth:KZ_SCREEN_WIDTH - 90];
+    CGSize titleSize = [text kz_sizeWithFont:[UIFont systemFontOfSize:16.0f] constrainedToWidth:KZ_Screen_Width - 90];
     return MAX(80, titleSize.height + 20);
 }
 

@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [KZ_FPSLabel showFPSLabelWithView:[UIApplication sharedApplication].keyWindow center:CGPointMake(KZ_SCREEN_WIDTH - 50, KZ_SCREEN_HEIGHT - 50)];
+    [KZ_FPSLabel showFPSLabelWithView:[UIApplication sharedApplication].keyWindow center:CGPointMake(KZ_Screen_Width - 50, KZ_Screen_Height - 50)];
     
     UIBarButtonItem *reloadItem = [[UIBarButtonItem alloc] initWithTitle:@"ReloadData" style:UIBarButtonItemStylePlain target:self action:@selector(reloadItemTapped)];
     UIBarButtonItem *sectionItem = [[UIBarButtonItem alloc] initWithTitle:@"Section" style:UIBarButtonItemStylePlain target:self action:@selector(sectionItemTapped)];
