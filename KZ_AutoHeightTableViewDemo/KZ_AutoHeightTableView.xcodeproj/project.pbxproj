@@ -18,7 +18,7 @@
 		AEC62FBC20A17C4200DFC8B9 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62FB420A17C4100DFC8B9 /* TableViewCell.m */; };
 		AEC62FBD20A17C4200DFC8B9 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62FB520A17C4100DFC8B9 /* Utils.m */; };
 		AEC62FBE20A17C4200DFC8B9 /* RowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62FB720A17C4100DFC8B9 /* RowViewController.m */; };
-		AEC62FC120A17C9800DFC8B9 /* KZ_AutoHeightTableView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62FC020A17C9800DFC8B9 /* KZ_AutoHeightTableView_iOS.framework */; };
+		AEF94DDA217831CE0063EE69 /* KZ_AutoHeightTableView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DD9217831CE0063EE69 /* KZ_AutoHeightTableView_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,7 @@
 		AEC62FB720A17C4100DFC8B9 /* RowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowViewController.m; sourceTree = "<group>"; };
 		AEC62FB820A17C4100DFC8B9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AEC62FB920A17C4100DFC8B9 /* RowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowViewController.h; sourceTree = "<group>"; };
-		AEC62FC020A17C9800DFC8B9 /* KZ_AutoHeightTableView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AutoHeightTableView_iOS.framework; sourceTree = "<group>"; };
+		AEF94DD9217831CE0063EE69 /* KZ_AutoHeightTableView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AutoHeightTableView_iOS.framework; sourceTree = "<group>"; };
 		F4AFF2E93658BC0813139C7F /* Pods-KZ_AutoHeightTableView_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_AutoHeightTableView_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_AutoHeightTableView_iOS/Pods-KZ_AutoHeightTableView_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B142356CB1AE773579F95E /* Pods_KZ_AutoHeightTableView_iOS.framework in Frameworks */,
-				AEC62FC120A17C9800DFC8B9 /* KZ_AutoHeightTableView_iOS.framework in Frameworks */,
+				AEF94DDA217831CE0063EE69 /* KZ_AutoHeightTableView_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 		AEC62FBF20A17C9800DFC8B9 /* AutoHeightTableView */ = {
 			isa = PBXGroup;
 			children = (
-				AEC62FC020A17C9800DFC8B9 /* KZ_AutoHeightTableView_iOS.framework */,
+				AEF94DD9217831CE0063EE69 /* KZ_AutoHeightTableView_iOS.framework */,
 			);
 			path = AutoHeightTableView;
 			sourceTree = "<group>";
