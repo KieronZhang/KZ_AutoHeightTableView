@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_AutoHeightTableView'
-    s.version = '0.1.2'
+    s.version = '0.1.3'
     s.summary = 'iOS Auto Height TableView.'
     s.homepage = 'https://github.com/KieronZhang/KZ_AutoHeightTableView'
     s.license = {:type => 'MIT', :file => 'LICENSE'}
